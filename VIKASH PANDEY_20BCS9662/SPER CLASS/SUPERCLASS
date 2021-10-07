@@ -1,0 +1,26 @@
+package com.company;
+class Super
+        {
+           void display()
+           {
+               System.out.println("Hello vikash");
+           }
+        }
+        class sub extends Super
+        {
+            void display()
+            {
+                System.out.println("KAISE HO JEE");
+            }
+        }
+
+public class Main {
+
+    public static void main(String[] args) {
+        Super s1=new Super();
+        s1.display();
+        sub s2=new sub();
+        s2.display();
+	// write your code here
+    }
+}
